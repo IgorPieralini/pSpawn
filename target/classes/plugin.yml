@@ -1,0 +1,22 @@
+name: pSpawn
+version: 1.0
+main: me.pieralini.pSpawn.Spawn
+author: Pieralini
+
+
+commands:
+  setspawn:
+    description: Seta o spawn de um Mundo determinado
+    usage: /<command>
+
+  spawn:
+    description: Teleporta para o Spawn
+    usage: /<command>
+
+
+
+permissions:
+  pSpawn.setspawn:
+    description: Permissão para /setspawn
+  pSpawn.spawn:
+    description: Permissão para /spawn
